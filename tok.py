@@ -34,7 +34,7 @@ class Tokenizer:
             num = self.ad[sentword]
             senttoken.append(num)
         senttoken.append(2)
-        while len(senttoken) < 8:
+        while len(senttoken) < 10:
             senttoken.append(0)
         print(senttoken)
 
