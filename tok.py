@@ -36,7 +36,7 @@ class Tokenizer:
         senttoken.append(2)
         while len(senttoken) < 10:
             senttoken.append(0)
-        print(senttoken)
+        return(senttoken)
 
 mytok = Tokenizer()
 
