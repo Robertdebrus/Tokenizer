@@ -1,3 +1,3 @@
 # Tokenizer
 
-tok.py is the basic file that has it's own text entry, tok2.py reads the lines from token.csv
+tok.py is the basic file that reads from token.csv. filesplitter splits the .csv file into two
